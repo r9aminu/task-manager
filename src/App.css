@@ -1,0 +1,47 @@
+.task-manager {
+  max-width: 600px; /* or the width you prefer */
+  margin: auto;
+}
+
+.task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.task-add-button {
+  /* Add your styling for the button here */
+}
+
+.task-list {
+  list-style: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-number {
+  width: 30px; /* Adjust width as needed */
+  margin-right: 10px;
+  text-align: right;
+}
+
+.task-title {
+  flex-grow: 1;
+}
+
+.task-status {
+  margin-right: 10px;
+}
+
+.toggle-button {
+  /* Add your styling for the button here */
+}
